@@ -35,7 +35,8 @@ while True:
 
     X_new = pd.DataFrame([row], columns=feature_names)
     pred = reg_model.predict(X_new)
-    print(pred)
+    print(f'Predicted Value: {pred}')
+    # print(pred)
 
 
 
